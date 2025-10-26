@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 import io
 
-url = "https://drive.google.com/file/d/1QF-gXY_8tyjL1pu4-c-JJg60-uXYux-z/view?usp=sharing"
+url = "https://drive.usercontent.google.com/download?id=1QF-gXY_8tyjL1pu4-c-JJg60-uXYux-z&export=download&authuser=0&confirm=t&uuid=7225423f-a9ce-4609-ae91-d4ea27d4c5fe&at=AKSUxGP79qik-mmple_CenZKu6WC:1761482866182"
 response1 = requests.get(url)
 
 def fetch_poster(movie_id):
@@ -73,3 +73,4 @@ if st.button('Recommend'):
 
 
     
+
